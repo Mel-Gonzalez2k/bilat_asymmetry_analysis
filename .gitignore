@@ -1,0 +1,66 @@
+# ---------------------------------------------------------------
+# Data directories — never version-controlled.
+# These hold the acquisition source-of-truth (~100 GB) and derived
+# video/array products. Back them up outside git; git is for code.
+# ---------------------------------------------------------------
+raw/
+processed/
+
+# Large results artifacts (keep small figures/tables — see below)
+results/**
+!results/
+!results/**/
+!results/**/*.md
+!results/**/*.csv
+!results/**/*.svg
+!results/**/*.png
+!results/.gitkeep
+
+# ---------------------------------------------------------------
+# Belt-and-braces: acquisition & derived binaries, wherever they land.
+# Guards against a stray recording dropped outside raw/.
+# ---------------------------------------------------------------
+*.dat
+*.avi
+*.mp4
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.bin
+*.oebin
+*.nwb
+*.rec
+*.kwd
+*.continuous
+
+# Open Ephys / SpikeGLX session sidecars
+**/Record Node */
+**/*_imec*.ap.*
+**/*_imec*.lf.*
+
+# Spike sorting output
+**/kilosort*/
+**/phy*/
+**/*.mat
+
+# ---------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# ---------------------------------------------------------------
+# OS / editor
+# ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
