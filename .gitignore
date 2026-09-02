@@ -5,6 +5,7 @@
 # ---------------------------------------------------------------
 raw/
 processed/
+scratch_space/
 
 # Large results artifacts (keep small figures/tables — see below)
 results/**
