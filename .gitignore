@@ -68,3 +68,5 @@ desktop.ini
 
 data/external/*
 data/processed/
+
+.snakemake
