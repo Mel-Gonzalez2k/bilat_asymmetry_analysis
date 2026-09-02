@@ -64,3 +64,6 @@ env/
 Thumbs.db
 desktop.ini
 *.swp
+
+
+data/external/*
