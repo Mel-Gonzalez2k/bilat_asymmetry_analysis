@@ -4,9 +4,7 @@
 # video/array products. Back them up outside git; git is for code.
 # ---------------------------------------------------------------
 raw/
-processed/
-data_to_organize/
-scratch_space/
+data/
 
 # Large results artifacts (keep small figures/tables — see below)
 results/**
