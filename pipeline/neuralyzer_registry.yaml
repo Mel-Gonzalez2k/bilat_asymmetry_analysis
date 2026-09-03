@@ -1,0 +1,23 @@
+telc_left_base_angle:
+  template: whisker_base_angle_template.json
+  description: TeLC left-whisker base angle only (no TTL timebase).
+  outputs:
+    base_angle:
+      step_id: whisker_${whisker_id}_base_angle
+      transform_name: Calculate Line Angle
+      input_key: whisker_${whisker_id}
+      output_key: whisker_${whisker_id}_base_angle
+      parameters:
+        position: 0.0
+        window: 0.2
+        method: Direct Points
+        polynomial_order: 3
+      dynamic_parameters:
+        - axis_x_x
+        - axis_x_y
+        - axis_y_x
+        - axis_y_y
+      save:
+        filename: base_angle.csv
+        header: Time,Data
+        precision: 2

@@ -1,0 +1,21 @@
+telc_angle:
+  examples:
+    animal_1_day7:
+      mouse_id: Animal_1
+      experiment_id: Day7
+      time_range:
+        start: 60000
+        end: 62000
+
+  panels:
+    bilateral_stack:
+      example: animal_1_day7
+      layout:
+        figsize: [10.0, 4.0]
+        height_ratios: [1, 1]
+        hspace: 0.08
+      plot:
+        xlabel: Time
+        ylabel: Angle (rad)
+        left_title: Left whisker
+        right_title: Right whisker
