@@ -5,6 +5,7 @@
 # ---------------------------------------------------------------
 raw/
 processed/
+data_to_organize/
 scratch_space/
 
 # Large results artifacts (keep small figures/tables — see below)
