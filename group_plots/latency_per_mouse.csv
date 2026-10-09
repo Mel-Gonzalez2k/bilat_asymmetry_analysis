@@ -1,0 +1,17 @@
+group,opto,side,latency_ms,n_pulses_detected,n_pulses
+experimental,7,left,113.0,2,5
+experimental,12,left,88.0,1,5
+experimental,13,left,8.0,1,5
+experimental,14,left,68.0,4,5
+experimental,15,left,55.0,4,5
+experimental,7,right,100.0,2,5
+experimental,12,right,24.0,1,5
+experimental,13,right,76.0,1,5
+experimental,14,right,21.0,4,5
+experimental,15,right,42.0,5,5
+control,5,left,,0,5
+control,6,left,108.0,1,5
+control,8,left,68.0,1,5
+control,5,right,,0,5
+control,6,right,94.0,2,5
+control,8,right,50.0,1,5

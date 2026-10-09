@@ -1,0 +1,9 @@
+group,folder,n_pulses
+experimental,Brooke_20260218_MRN_opto7_F_10_12_25_L_100ms,10
+experimental,1_at_rest_first_stim_100ms_1s,5
+experimental,2_whisking_first_stim_100ms_1s,5
+experimental,2_100ms_1s,5
+experimental,2_100ms_1s,5
+control,Brooke_20260216_MRN_opto5_F_8_2_25_L_100ms,10
+control,Brooke_20260219_MRN_opto6_F_8_9_25_R_100ms,10
+control,Brooke_MRN_opto8_100ms,10

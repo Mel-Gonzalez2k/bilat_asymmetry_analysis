@@ -1,0 +1,2 @@
+shared color scale: vmin=-47.399, vmax=47.399 deg, cmap=RdBu_r
+window: -200..+400 ms, baseline -200 ms
